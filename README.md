@@ -8,5 +8,6 @@ This file takes any restaurent link from tripadvisor (like https://www.tripadvis
 The second folder is for scraping the reviews on well known google maps page. The file infinite_scroll.py takes input link of any restaurent from google maps.
 As google reviews are loaded while scrolling as AJAX (Asynchronous Javascript and XML)is used while writing the code we need selenium library and webdriver for scrolling 
 and while scrolling we scrape the data and save it into a csv file like fresh_stocks.csv\
+\
 Step 2: Here we use Bag of words model to process the texts(stemming,removing stop words,etc) of both input and scraped datasets and then we create the bag of words model.Then we train the dataset using any classification model Here we used Kernel SVM.After training we predict the result for previously scraped review set and calculate the positivity percentage.
 Here we got 59.2%.

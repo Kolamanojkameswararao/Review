@@ -2,7 +2,7 @@
 This Project is Mainly focused on classifying the restaurent reviews into good and bad.
 The Steps involved in this are
 1) Scraping reviews of a restaurent.
-2) Classifying them using NLP.\\
+2) Classifying them using NLP.\n
 Step 1: Folder base scraping consists of a scrape_nlp.py which scrapes data using BeautifulSoup from the website tripadvisor(https://www.tripadvisor.in/)
 This file takes any restaurent link from tripadvisor (like https://www.tripadvisor.in/Restaurant_Review-g297588-d12212099-Reviews-Cascades-Visakhapatnam_Visakhapatnam_District_Andhra_Pradesh.html) and scrapes the reviews and stores them in a csv file like reviews.csv
 The second folder is for scraping the reviews on well known google maps page. The file infinite_scroll.py takes input link of any restaurent from google maps.

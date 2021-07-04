@@ -10,5 +10,5 @@ The second folder is for scraping the reviews on well known google maps page. Th
 As google reviews are loaded while scrolling as AJAX (Asynchronous Javascript and XML)is used while writing the code we need selenium library and webdriver for scrolling 
 and while scrolling we scrape the data and save it into a csv file like fresh_stocks.csv\
 \
-Step 2: Here we use Bag of words model to process the words of reviews(stemming,removing stop words,etc) of both input and scraped datasets and then we create the bag of words model.Then we train the dataset using any classification model Here we used Kernel SVM.After training we predict the result for previously scraped review set and calculate the positivity percentage.
+Step 2:The file 'Review_classifier.ipynb' does this step.Here we use Bag of words model to process the words of reviews(stemming,removing stop words,etc) of both input and scraped datasets and then we create the bag of words model.Then we train the dataset using any classification model Here we used Kernel SVM.After training we predict the result for previously scraped review set and calculate the positivity percentage.
 Here we got 59.2%.
